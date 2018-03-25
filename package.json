@@ -1,0 +1,31 @@
+{
+  "name": "express_api_JWT authentication",
+  "version": "1.0.0",
+  "description": "basic API for authentication with JWT and basics routes - a good start for any project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SandrinePradier/API-base-NodeJS-Express-JWT.git"
+  },
+  "author": "Sandrine Pradier",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^8.2.0",
+    "mongoose": "^5.0.7",
+    "mongoose-type-email": "^1.0.5",
+    "morgan": "^1.9.0",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1"
+  }
+}
